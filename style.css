@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    width: 1920px;
+    height: 1080px;
+}
+.container-contatos{
+    display: flex;
+    flex-direction: column;
+    width: 30vh;
+    height: 100%;
+    background-color: aqua;
+    gap: 10vh;
+    position: relative;
+}
+
+
+/*===== HEADER CONAINER CONTATOS ===== */
+.header-contatos{
+    display: grid;
+    gap: 10px;
+    background-color: aquamarine;
+    height: 10%;
+    width: 100%;
+    padding: 15px;
+
+
+}
+.input-buscar{
+    display: flex;
+    place-self: center;
+    width: 90%;
+    height: 40px;
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.contatos{
+    display: flex;
+    align-items: center;
+    padding: 7px;
+    width: 30vh;
+    height: 10vh;
+    background-color: antiquewhite;
+    justify-content: space-between;
+    gap: 10px;
+    font-size: small;
+    /* white-space: nowrap; */
+}
+.perfil{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+/* ===== CONTAINER CONVERSAS===== */
+
+.container-conversas{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(22, 158, 113);
+    height: 100%;
+    width: 100%;
+}
+
+.header-conversas{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 50px;
+    background-color: rgb(5, 100, 69);
+    width: 100%;
+    height: 10%;
+}
+.img-contatos{
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+
+
+.container-barra{
+    background-color: antiquewhite;
+    width: 100%;
+    height: 100px;
+    
+}
