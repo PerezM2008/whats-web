@@ -1,46 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>WhatApp</title>
 </head>
+
 <body>
 
     <!-- Contaiener de exibição dos contatos -->
-    <div class="container-contatos" >
-        <!-- HEADER do container contatos -->
-        <div class="header-contatos">
-            <h1 class="whatsapp-titulo">WhatApp</h1>
-
-            <input type="text" placeholder="Buscar un chat o iniciar uno nuevo" class="input-buscar">
-        </div>
-
-        <!-- Contatos -->
-        <div class="contatos">
-            <img src="img/icon-contatos.png" alt="IMG contatos" class="perfil" id="class">
-            <div>
-                <p id="nomeContato">NOME DO CONTATO</p>
-                <p>descricao da ultima mensagem</p>
-            </div> 
-        </div>
-    </div>
     
+        <div class="container-contatos">
+            <!-- HEADER do container contatos -->
+            <div class="header-contatos">
+                <h1 class="whatsapp-titulo">WhatApp</h1>
+
+                <input type="text" placeholder="Buscar un chat o iniciar uno nuevo" class="input-buscar">
+            </div>
+
+            <!-- Contatos -->
+            <div class="lista-contatos">
+                <div class="contatos">
+                    <img src="img/icon-contatos.png" alt="IMG contatos" class="perfil" id="class">
+
+                    <div>
+                        <p id="nomeContato">NOME DO CONTATO</p>
+                        <p>descricao da ultima mensagem</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    
+
     <!-- Container de exibição das conversas -->
-     <div class="container-conversas">
-        <div class="header-conversas">
-            <img src="img/icon-contatos.png" alt="img.contatos" class="img-contatos">
-            <p>nome do contato</p>
-        </div>
+   
+        <div class="container-conversas">
+            <div class="header-conversas">
+                <img src="img/icon-contatos.png" alt="img.contatos" class="img-contatos">
+                <p>nome do contato</p>
+            </div>
 
-        <div class="conversas">
-        ssrehrh    
-        </div>
+            <div class="conversas">
+                ssrehrh
+            </div>
 
-        <div class="container-barra">
-            <input type="text" placeholder="Escreva sua mensagem" class="barra-conversa">
+            <div class="container-barra">
+                <input type="text" placeholder="Escreva sua mensagem" class="barra-conversa">
+            </div>
         </div>
-     </div>
+    
+
 </body>
+
 </html>

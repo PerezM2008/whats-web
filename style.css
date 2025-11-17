@@ -1,91 +1,147 @@
-*{
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     display: flex;
     width: 1920px;
     height: 1080px;
 }
-.container-contatos{
-    display: flex;
-    flex-direction: column;
-    width: 30vh;
-    height: 100%;
-    background-color: aqua;
-    gap: 10vh;
-    position: relative;
-}
+
 
 
 /*===== HEADER CONAINER CONTATOS ===== */
-.header-contatos{
+
+
+
+.container-contatos {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    border: solid 1px black;
+    gap: 10vh;
+    position: fixed;
+    /* z-index: 1; */
+}
+
+.header-contatos {
     display: grid;
-    gap: 10px;
-    background-color: aquamarine;
-    height: 10%;
-    width: 100%;
-    padding: 15px;
+    gap: 20px;
+    background-color: #3b3b3b;
+    height: 15%;
+    width: 20%;
+    padding: 25px;
+    position: fixed;
 
 
 }
-.input-buscar{
+
+.whatsapp-titulo{
+    color: #fafafa;
+}
+
+.input-buscar {
     display: flex;
     place-self: center;
+    background-color: #666666;
     width: 90%;
     height: 40px;
     border-radius: 50px;
     padding: 10px;
+    border: 0;
 }
 
-.contatos{
+.lista-contatos {
+    display: flex;
+    height: 85%;
+    width: 20%;
+    background-color: #3b3b3b;
+    flex-direction: column;
+    overflow-y: auto;
+    bottom: 0;
+    position: fixed;
+    padding: 20px;
+}
+
+.contatos {
     display: flex;
     align-items: center;
     padding: 7px;
-    width: 30vh;
+    width: 100%;
     height: 10vh;
-    background-color: antiquewhite;
-    justify-content: space-between;
-    gap: 10px;
+    gap: 25px;
     font-size: small;
+    color: #fafafa;
     /* white-space: nowrap; */
 }
-.perfil{
+
+.perfil {
     border-radius: 50px;
     width: 50px;
     height: 50px;
 }
+
 /* ===== CONTAINER CONVERSAS===== */
 
-.container-conversas{
+.container80 {
+    height: 100%;
+    width: 80%;
+    background-color: brown;
+}
+
+.container-conversas {
     display: flex;
     flex-direction: column;
     background-color: rgb(22, 158, 113);
     height: 100%;
-    width: 100%;
+    width: 80%;
+    float: right;
+    overflow-y: scroll;
+    /* position: relative; */
 }
 
-.header-conversas{
+.header-conversas {
     display: flex;
     align-items: center;
     padding: 20px;
     gap: 50px;
     background-color: rgb(5, 100, 69);
-    width: 100%;
+    width: 80%;
     height: 10%;
+    position: fixed;
+    right: 0;
+
 }
-.img-contatos{
+
+.img-contatos {
     border-radius: 50px;
     width: 50px;
     height: 50px;
 }
 
 
-.container-barra{
-    background-color: antiquewhite;
-    width: 100%;
-    height: 100px;
-    
+.container-barra {
+    display: flex;
+    background-color: rgb(214, 130, 19);
+    width: 80%;
+    height: 10%;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+
+}
+
+.barra-conversa {
+    display: flex;
+    height: 50%;
+    width: 80%;
+    align-items: center;
+    border-radius: 40px;
+    border: 0;
+    padding-left: 20px;
+
+
 }
